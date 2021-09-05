@@ -1,4 +1,5 @@
 Vagrant.configure("2") do |config|
+  
   config.vm.define "attacker" do |attacker|
     config.vm.box = "kalilinux/rolling"
     config.vm.hostname = "attacker"
